@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 200px;
+    padding: 15px;
+    margin: 20px;
+    border: 10px;
+    background-color: #0c1221;
+    text-align: center;
+
+}
+.card{
+    border: 5px solid #0c1221;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+#one{
+    grid-column: 2/ 4;
+    grid-row: span 4;
+    background-color: orangered;
+}
+#two{
+    grid-column: 4 / 4;
+    grid-row: span 4;
+    background-color: orange;
+    width: 250px ;
+}
+#three{
+    grid-column: 2/3;
+    grid-row: span 4;
+    background-color: darkgreen;
+    width: 250px;
+    height: 150px;
+}
+#four{
+    grid-column: 3/ 4;
+    grid-row: span 1;
+    background-color:deepskyblue;
+    width: 450px;
+    height: 50px;
+}
+#five{
+    grid-column: 3 / 4;
+    grid-row: span 1;
+    background-color: deepskyblue;
+    width: 450px;
+    height:40px;
+    
+
+
+}
